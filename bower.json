@@ -1,0 +1,18 @@
+{
+  "name": "vivus-component",
+  "homepage": "https://github.com/billy-hardy/vivus-component",
+  "authors": [
+    "Billy Hardy <billy92@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
