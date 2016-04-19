@@ -1,18 +1,27 @@
 {
-  "name": "vivus-component",
-  "homepage": "https://github.com/billy-hardy/vivus-component",
+  "name": "vi-vus",
+  "version": "1.0.3",
   "authors": [
-    "Billy Hardy <billy92@gmail.com>"
+    "Anonymous <anonymous@example.com>"
   ],
-  "description": "",
-  "main": "",
-  "moduleType": [],
-  "license": "MIT",
+  "description": "An element providing a solution to no problem in particular.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed"
+  ],
+  "main": "vi-vus.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
 }

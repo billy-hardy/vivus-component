@@ -1,3 +1,4 @@
+<!doctype html>
 <!--
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
@@ -7,33 +8,20 @@ The complete set of contributors may be found at http://polymer.github.io/CONTRI
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
 
-<link rel="import" href="../../bower_components/polymer/polymer.html">
-
-<dom-module id="viv-us">
-  <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
-    <div>Hello from <span>{{foo}}</span></div>
-  </template>
-  <script>
-  (function() {
-    'use strict';
-
-    Polymer({
-      is: 'viv-us',
-
-      properties: {
-        foo: {
-          type: String,
-          value: 'viv-us',
-          notify: true
-        }
-      }
-    });
-  })();
-  </script>
-</dom-module>
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../web-component-tester/browser.js"></script>
+  </head>
+  <body>
+    <script>
+      // Load and run all tests (.html, .js):
+      WCT.loadSuites([
+        'basic-test.html',
+      ]);
+    </script>
+  </body>
+</html>
